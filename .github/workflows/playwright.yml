@@ -25,7 +25,7 @@ jobs:
     - name: Run E2E tests
       run: npx playwright test
 
-    -name: Publish HTML Report
+    - name: Publish HTML Report
      uses: actions/upload-artifact@v4
 
       if: always() # course instructions
